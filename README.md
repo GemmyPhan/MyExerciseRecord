@@ -23,9 +23,13 @@ $ Exercise Record List:
 > The search could be executed as an ajax request.
 
 > New Exercise Record Entry Form:
+
 • Could be shown as a popup on the main page.
+
 • Could be launched via a button on the main page.
+
 • On successful submission of the form the user could be redirected back onto the main page.
+
 
 $ Data Store:
 
