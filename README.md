@@ -1,7 +1,7 @@
 # MyExerciseRecord
 Record personal exercise activities.
 
-* Functionality:
+= Functionality:
 
 > The application consist of a single web page
 
