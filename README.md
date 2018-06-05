@@ -29,23 +29,36 @@ $ Exercise Record List:
 
 $ Data Store:
 
->| Could be implemented as an in-memory repository with a view to using database storage at some time in the future.
+> Could be implemented as an in-memory repository with a view to using database storage at some time in the future.
+
 > The repository is provided to the controller via dependency injection during construction (Optional).
+
 > The repository allow the addition of new ExerciseRecord entities.
+
 > The repository expose existing ExerciseRecord entities as an IQueryable.
+
 
 $ Validation:
 
 > Validation could be enforced both client side and server side.
+
 > Validation could enforce the data constraints as define in the ExerciseRecord above.
+
 > A specific exercise (ie. exerciseName) can only be entered once on a single day. This constraint only needs to be enforced on the server. The mechanism used to enforce.
+
 this constraint is at your own discretion.
 
 $ Structure:
 
 > The application make use of asp.net mvc layout files and all pages should use this layout.
+
 > All javascript is contained in js files rather than in the page directly.
+
 > All css should be contained in css files rather than in the page directly.
+
 > The main layout should allow child page to place file references in the head section of the page.
+
 > All common js files should be referenced via the layout page.
+
 > All page specific js files should be referenced via the child page.
+
