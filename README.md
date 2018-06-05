@@ -2,8 +2,10 @@
 Record personal exercise activities.
 
 * Functionality:
-• The application consist of a single web page
-• The page provide the following functionality:
+
+> The application consist of a single web page
+
+> The page provide the following functionality:
 - Show a list of exercise records currently in the system
 - Allow the user to search existing records by exercise name
 - Allow the user to enter new exercise records
@@ -26,10 +28,10 @@ New Exercise Record Entry Form:
 * Data Store:
 • Should be implemented as an in-memory repository with a view to using database
 storage at some time in the future
-• The repository should be provided to the controller via dependency injection during
+• The repository is provided to the controller via dependency injection during
 construction (Optional)
-• The repository should allow the addition of new ExerciseRecord entities
-• The repository should expose existing ExerciseRecord entities as an IQueryable
+• The repository allow the addition of new ExerciseRecord entities
+• The repository expose existing ExerciseRecord entities as an IQueryable
 
 * Validation:
 • Validation should be enforced both client side and server side
@@ -39,6 +41,7 @@ constraint only needs to be enforced on the server. The mechanism used to enforc
 this constraint is at your own discretion.
 
 * Structure:
+
 -The application should make use of asp.net mvc layout files and all pages should use
 this layout
 -All javascript should be contained in js files rather than in the page directly
